@@ -2,5 +2,9 @@
 node_modules
 typings
 
+# js files that compiled by tsc
+miniprogram/**/*.js
+
+# prettierignore itself 
 .prettierignore
 .gitignore
