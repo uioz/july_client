@@ -19,14 +19,8 @@
     "pretty": true,
     "strictPropertyInitialization": true,
     "lib": ["es5"],
-    "typeRoots": [
-      "./typings"
-    ]
+    "typeRoots": ["./typings"]
   },
-  "include": [
-    "./**/*.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["./**/*.ts"],
+  "exclude": ["node_modules"]
 }

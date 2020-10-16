@@ -1,18 +1,27 @@
 {
-  "name": "miniprogram-ts-quickstart",
+  "name": "july_client",
   "version": "1.0.0",
-  "description": "",
   "scripts": {
     "compile": "./node_modules/typescript/bin/tsc",
     "tsc": "node ./node_modules/typescript/lib/tsc.js"
   },
   "keywords": [],
   "author": "",
-  "license": "",
-  "dependencies": {
-  },
+  "license": "ISC",
+  "dependencies": {},
   "devDependencies": {
     "miniprogram-api-typings": "^2.8.3-1",
+    "prettier": "2.1.2",
     "typescript": "^3.3.3333"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uioz/july_client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uioz/july_client/issues"
+  },
+  "homepage": "https://github.com/uioz/july_client#readme",
+  "description": ""
 }
