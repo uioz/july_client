@@ -2,8 +2,13 @@
   "name": "july_client",
   "version": "1.0.0",
   "scripts": {
-    "compile": "./node_modules/typescript/bin/tsc",
-    "tsc": "node ./node_modules/typescript/lib/tsc.js"
+    "lint": "eslint .",
+    "prettier": "node ./node_modules/typescript/lib/tsc.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "eslint . && npx prettier --write ."
+    }
   },
   "keywords": [],
   "author": "",
@@ -14,6 +19,7 @@
     "@typescript-eslint/parser": "^4.4.1",
     "eslint": "^7.11.0",
     "eslint-config-prettier": "^6.12.0",
+    "husky": "^4.3.0",
     "miniprogram-api-typings": "^2.8.3-1",
     "prettier": "2.1.2",
     "typescript": "^3.9.7"

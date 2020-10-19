@@ -4,3 +4,6 @@ typings
 
 # js files that compiled by tsc
 miniprogram/**/*.js
+
+.eslintrc.js
+.prettierrc.js
