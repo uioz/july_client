@@ -8,3 +8,6 @@ miniprogram/**/*.js
 # prettierignore itself 
 .prettierignore
 .gitignore
+
+# result of build
+miniprogram/miniprogram_npm

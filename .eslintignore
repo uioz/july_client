@@ -5,5 +5,8 @@ typings
 # js files that compiled by tsc
 miniprogram/**/*.js
 
+# result of build
+miniprogram/miniprogram_npm
+
 .eslintrc.js
 .prettierrc.js
