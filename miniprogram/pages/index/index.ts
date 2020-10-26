@@ -1,7 +1,7 @@
-// index.ts
-// 获取应用实例
-const app = getApp<IAppOption>();
+import { AppOption } from "../../type";
+const app = getApp<AppOption>();
 
+// index.ts
 Page({
   data: {
     motto: "Hello World",
