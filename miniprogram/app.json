@@ -1,7 +1,5 @@
 {
-  "pages": [
-    "pages/topic/index"
-  ],
+  "pages": ["pages/topic/index"],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",

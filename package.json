@@ -8,7 +8,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "eslint . && npx prettier --write ."
+      "pre-commit": "eslint . && npx prettier --write . && git add ."
     }
   },
   "keywords": [],
